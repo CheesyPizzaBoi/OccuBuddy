@@ -4,8 +4,7 @@
     height: 65px;
     margin: auto;
     margin-top: 20px;
-    
-    
+    border-radius: 9px;
 }
 
 .tab1-title {
@@ -21,8 +20,8 @@
     width: 85%;
     margin: auto;
     margin-top: 20px;
-    background-color: #16425B;
-    border-radius: 0px;
+    background-color: #35719B;
+    border-radius: 9px;
 }
 
 .cards-color {
@@ -30,6 +29,7 @@
 }
 
 .tab1 {
-    background-color: red;
+    --ion-background-color:#ADD0D7;
 }
+
 
