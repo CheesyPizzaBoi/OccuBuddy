@@ -5,11 +5,41 @@
 </ion-header>
 
 <ion-content>
-  <p>Here are some tips on how to do interviews</p>
-
-  <div class="iframe-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/8xdGgacsbz8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h1>How To Do An Interview</h1>
+  <div class="interview-page-div"> 
+    <h1><strong>Know Yourself</strong></h1>
+    <h4>Make a few lists</h4>
+    <ul>
+      <h5>-Your top strengths</h5>
+      <h5>-Your best skills</h5>
+      <h5>-Your biggest achievements</h5>
+    </ul>
+    <h1><strong>Research the Job You’ll be Interviewing For</strong></h1>
+    <h4>Read job description!</h4>
+    <ul>
+      <h5>What is the company known for? What do they stand for?</h5>
+    </ul>
   </div>
 
 </ion-content>
-<ion-button [routerLink]="['/tabs/tab1']">Go  Back</ion-button>
+
+<ion-tabs class="ion-tabs">
+
+  <ion-tab-bar class = "tab-bar" slot="bottom">
+    
+    <ion-tab-button [routerLink]="['/tabs/tab1']" class="tab-buttons" tab="tab1">
+      <ion-icon name="triangle"></ion-icon>
+      <ion-label>Guide</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button [routerLink]="['/tabs/tab2']" class="tab-buttons" tab="tab2">
+      <ion-icon name="ellipse"></ion-icon>
+      <ion-label>Tab 2</ion-label>
+    </ion-tab-button>
+
+  </ion-tab-bar>
+
+</ion-tabs>
+
+
+
