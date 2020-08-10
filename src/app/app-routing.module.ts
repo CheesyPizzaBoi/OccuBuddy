@@ -17,6 +17,10 @@ const routes: Routes = [
   {
     path: 'tab3-category1-content',
     loadChildren: () => import('./tab3-category1-content/tab3-category1-content.module').then( m => m.Tab3Category1ContentPageModule)
+  },
+  {
+    path: 'tab1-card2-content',
+    loadChildren: () => import('./tab1-card2-content/tab1-card2-content.module').then( m => m.Tab1Card2ContentPageModule)
   }
 ];
 @NgModule({
