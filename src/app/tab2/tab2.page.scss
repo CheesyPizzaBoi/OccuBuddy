@@ -2,12 +2,16 @@
     position: relative;
     padding-bottom: 20px;
     padding-top: 15px;
-    left: 14px;
+    left: 25px;
+    font-size: 42px;
 }
 
 .cards-tab2 {
-    background-color: #236e99;
+    background-color: #F4F4F4;
     border-radius: 12px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 25px;
 }
 
 .cards-title {
@@ -16,23 +20,13 @@
     font-weight: 15;
 }
 
-.tab2 {
-    --ion-background-color:#ADD0D7
-}
+
 
 .tab2-div {
     background-color: #5EA0BE;
-    width: 85%;
     height: 65px;
     margin: auto;
-    margin-top: 20px;
-    border-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 
-.tab2-title {
-    color: white;
-    margin: auto;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 10px;
-}

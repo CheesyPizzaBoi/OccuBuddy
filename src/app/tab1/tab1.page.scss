@@ -1,31 +1,39 @@
 .tab1-div {
-    background-color: #ADD0D7;
-    width: 85%;
-    height: 65px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 9px;
+    background-color: #5EA0BE;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    height: 80px;
 }
 
 .tab1-title {
     color: white;
     margin: auto;
     text-align: center;
+    position: relative;
+    top: 15px;
     padding-top: 15px;
     padding-bottom: 10px;
 
 }
 
 .cards {
-    width: 85%;
+    width: 90%;
     margin: auto;
     margin-top: 20px;
-    background-color: #81C3D7;
+    background-color: #F4F4F4;
     border-radius: 9px;
 }
 
-.cards-color {
-    color: white;
+.cards-subtitle-color {
+    color: black;
+    font-size: 20px;
+}
+
+.cards-title-color {
+    color: #9E9E9E;
+}
+.cards-content-color {
+    color: #9E9E9E;
 }
 
 
