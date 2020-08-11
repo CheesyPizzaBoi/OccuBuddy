@@ -15,22 +15,6 @@
     top: 35px;
 }
 
-.tab-buttons {
-    background-color: #35719B;
-    position: relative;
-    bottom: 10px;
-}
-
-.tab-bar {
-    height: 100px;
-    width: 300px;
-    margin: auto;
-    border-radius: 9px;
-    position: relative;
-    top: 25px;
-    
-}
-
 .interview-page-div {
     width: 345px;
     height: 650px;
@@ -50,6 +34,41 @@
     top: 25px;
     
 }
+
+.tab-buttons {
+    height: 65px;
+    
+}
+
+.tab-bar {
+    height: 85px;
+    box-shadow: 0 -10px 8px -10px gray;
+}
+
+.tab1-interview-header {
+    background-color: #5EA0BE;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    height: 80px;
+}
+
+.tab1-interview-header-title {
+    color: white;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+.back-button {
+    position: relative;
+    bottom: 37px;
+    left: 10px;
+}
+
 
 
 

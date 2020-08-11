@@ -1,13 +1,14 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Interview</ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content>
+  <div class="tab1-interview-header">
+    <h1 class="tab1-interview-header-title"><strong>Advice</strong></h1>
+    <ion-button color="black" class="back-button" [routerLink]="['/tabs/tab1']">
+      <img class="back-icon"src="../../assets/Vector.png">
+    </ion-button>
+  </div>
+  
 
   <div class="interview-page-div"> 
-    <h1 class="interview-page-title">How To Do An Interview</h1>
     
     <div class="iframe-container">
       <iframe width="300" height="265"  src="https://www.youtube.com/embed/aTHAZhxT4gg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -32,23 +33,7 @@
 
 </ion-content>
 
-<ion-tabs class="ion-tabs">
 
-  <ion-tab-bar class = "tab-bar" slot="bottom">
-    
-    <ion-tab-button [routerLink]="['/tabs/tab1']" class="tab-buttons" tab="tab1">
-      <ion-icon name="triangle"></ion-icon>
-      <ion-label>Guide</ion-label>
-    </ion-tab-button>
-
-    <ion-tab-button [routerLink]="['/tabs/tab2']" class="tab-buttons" tab="tab2">
-      <ion-icon name="ellipse"></ion-icon>
-      <ion-label>Tab 2</ion-label>
-    </ion-tab-button>
-
-  </ion-tab-bar>
-
-</ion-tabs>
 
 
 

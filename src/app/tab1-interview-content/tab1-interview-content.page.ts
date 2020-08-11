@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Tab1InterviewContentPage implements OnInit {
 
+  
   constructor() { }
 
   ngOnInit() {
