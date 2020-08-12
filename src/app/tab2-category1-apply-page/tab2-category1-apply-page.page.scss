@@ -10,7 +10,7 @@
 .interview-page-text {
     position: relative;
     top: 65px;
-    left: 15px;
+    left: 22px;
 }
 
 .interview-page-title {
@@ -43,19 +43,13 @@
     left: 0px;
 }
 
-.tab-2-image {
-    position: relative;
-    width: 100%;
-    right: 14px;
-    bottom: 20px;
-}
 
 .cashier {
     position: relative;
-    bottom: 75px;
+    bottom: 0px;
     font-size: 35px;
-    right: 10px;
-    height: 2px;
+    text-align: center;
+    
 }
 
 .apply-button {
@@ -63,7 +57,7 @@
     top: 70px;
     width: 95%;
     left: 8px;
-    border-radius: 9px;
+    background-color: #5EA0BE;
 }
 
 .averages-button {
@@ -71,5 +65,55 @@
     top: 80px;
     width: 95%;
     left: 8px;
-    border-radius: 9px;
+    background-color: #5EA0BE;
 }
+
+.break {
+    background-color: gray;
+    position: relative;
+    right: 30px;
+    width: 600px;
+}
+
+.border {
+    display: table;
+    width: 100%;
+    margin-top: 20px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: thin;
+    position: relative;
+    border-color: gray;
+    height: 105px;
+}
+
+.mcdonald {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+}
+
+.info-div {
+    position: relative;
+    left: 100px;
+    bottom: 18px;
+    height: 1px;
+}
+
+.info {
+    font-size: medium;
+}
+.job {
+    font-size: 19px;
+}
+.info2 {
+    font-size: medium;
+    color: #5EA0BE;
+}
+
+.goTo {
+    position: relative;
+    left: 220px;
+    bottom: 78px;
+}
+

@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
 })
 export class TabsPage {
 
-  
+  change() {
+    (document.getElementById('home-icon') as HTMLImageElement).src = '../../assets/home-icon-lit.png';
+  }
   
   constructor() {}
 

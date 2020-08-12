@@ -21,6 +21,14 @@ const routes: Routes = [
   {
     path: 'tab1-card2-content',
     loadChildren: () => import('./tab1-card2-content/tab1-card2-content.module').then( m => m.Tab1Card2ContentPageModule)
+  },
+  {
+    path: 'tab2-category1-apply-page',
+    loadChildren: () => import('./tab2-category1-apply-page/tab2-category1-apply-page.module').then( m => m.Tab2Category1ApplyPagePageModule)
+  },
+  {
+    path: 'tab2-category1-averages',
+    loadChildren: () => import('./tab2-category1-averages/tab2-category1-averages.module').then( m => m.Tab2Category1AveragesPageModule)
   }
 ];
 @NgModule({
