@@ -26,7 +26,7 @@
 .interview-page-text {
     position: relative;
     top: 65px;
-    left: 22px;
+    left: 12px;
 }
 
 .interview-page-title {
@@ -42,7 +42,7 @@
 }
 
 .tab-bar {
-    height: 85px;
+    height: 15px;
     box-shadow: 0 -10px 8px -10px gray;
 }
 
@@ -70,6 +70,18 @@
     left: 10px;
 }
 
+.title {
+    text-align: center;
+    font-size: 30px;
 
+}
+
+.lines {
+    line-height: 30%;
+}
+
+.text2 {
+    margin-bottom: -15px;
+}
 
 
