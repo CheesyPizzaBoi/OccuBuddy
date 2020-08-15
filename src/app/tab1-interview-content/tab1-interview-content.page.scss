@@ -1,31 +1,12 @@
-.iframe-container{
-    position: relative;
+
+.interview-image {
     width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-    margin:auto;
-}
-.iframe-container iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    top: 35px;
 }
 
-.interview-page-div {
-    width: 345px;
-    height: 650px;
-    margin: auto;
-    background-color: #81C3D7;
-    border-radius: 9px;
-}
 
 .interview-page-text {
     position: relative;
-    top: 65px;
+    top: 20px;
     left: 12px;
 }
 
